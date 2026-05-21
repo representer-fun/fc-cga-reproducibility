@@ -1,0 +1,5 @@
+dataset,detector,label_fraction,heldout_typology,none,ours
+amlnet,graphsage_lite,1,,0.9606541955544611,0.973543636768155
+amlnet,lightgbm,1,,0.9702954784636281,0.9728192760960861
+transxion,graphsage_lite,1,,0.11369846679976602,0.08990355573068401
+transxion,lightgbm,1,,0.26305091811513304,0.251955986071467

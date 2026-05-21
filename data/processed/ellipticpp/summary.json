@@ -1,0 +1,18 @@
+{
+  "dataset": "ellipticpp",
+  "source": "huggingface:AI4FinTech/ellipticpp",
+  "rows": 46564,
+  "features": 185,
+  "nodes": 46564,
+  "positives": 4545,
+  "positive_rate": 0.09760759384932566,
+  "splits": {
+    "train": 27938,
+    "val": 9313,
+    "test": 9313
+  },
+  "typologies": {
+    "unknown": 4545
+  },
+  "note": "Predictive robustness only; no transaction amount ledger-validity claim."
+}

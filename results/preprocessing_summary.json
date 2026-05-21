@@ -1,0 +1,56 @@
+[
+  {
+    "dataset": "transxion",
+    "source": "github:chaos-max/TransXion",
+    "rows": 3029170,
+    "features": 83,
+    "nodes": 47526,
+    "positives": 4641,
+    "positive_rate": 0.0015321028532568326,
+    "splits": {
+      "train": 1817502,
+      "val": 605834,
+      "test": 605834
+    },
+    "typologies": {
+      "unknown": 4641
+    }
+  },
+  {
+    "dataset": "amlnet",
+    "source": "zenodo:16736515",
+    "rows": 1090172,
+    "features": 42,
+    "nodes": 11000,
+    "positives": 1745,
+    "positive_rate": 0.001600664849216454,
+    "splits": {
+      "train": 654103,
+      "test": 218035,
+      "val": 218034
+    },
+    "typologies": {
+      "layering": 1370,
+      "structuring": 321,
+      "integration": 54
+    }
+  },
+  {
+    "dataset": "ellipticpp",
+    "source": "huggingface:AI4FinTech/ellipticpp",
+    "rows": 46564,
+    "features": 185,
+    "nodes": 46564,
+    "positives": 4545,
+    "positive_rate": 0.09760759384932566,
+    "splits": {
+      "train": 27938,
+      "val": 9313,
+      "test": 9313
+    },
+    "typologies": {
+      "unknown": 4545
+    },
+    "note": "Predictive robustness only; no transaction amount ledger-validity claim."
+  }
+]

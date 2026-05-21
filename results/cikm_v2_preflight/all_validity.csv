@@ -1,0 +1,9 @@
+acceptance_rate,augmentation,dataset,detector,detector_hardness,edit_distance,generated,heldout_typology,label_fraction,ledger_violation_rate,mean_flow_residual,median_flow_residual,profile_drift,rho,seed,temporal_violation_rate
+,none,amlnet,lightgbm,,,0,,1,,,,,0.2,0,
+0.9470899470899471,hard_projected_v2,amlnet,lightgbm,3.3580439173686623,0.22212678817224302,189,,1,0.0,0.0,0.0,0.8143648612876031,0.2,0,0.0
+,none,amlnet,pyg_sage,,,0,,1,,,,,0.2,0,
+0.9470899470899471,hard_projected_v2,amlnet,pyg_sage,3.3580439173686623,0.22212678817224302,189,,1,0.0,0.0,0.0,0.8143648612876031,0.2,0,0.0
+,none,amlnet,lightgbm,,,0,,1,,,,,0.2,0,
+0.9470899470899471,hard_projected_v2,amlnet,lightgbm,3.3580439173686623,0.22212678817224302,189,,1,0.0,0.0,0.0,0.8143648612876031,0.2,0,0.0
+,none,amlnet,pyg_sage,,,0,,1,,,,,0.2,0,
+0.9470899470899471,hard_projected_v2,amlnet,pyg_sage,3.3580439173686623,0.22212678817224302,189,,1,0.0,0.0,0.0,0.8143648612876031,0.2,0,0.0

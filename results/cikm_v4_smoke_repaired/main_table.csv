@@ -1,0 +1,5 @@
+dataset,detector,augmentation,label_fraction,heldout_typology,auprc,auprc,auroc,auroc,recall_at_1pct_fpr,recall_at_1pct_fpr,precision_at_k,precision_at_k,ece,ece,training_seconds,training_seconds
+,,,,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+amlnet,lightgbm,feature_noise_repaired_v2,1,,0.9729792403542501,,0.999664717501856,,0.9926829268292681,,0.9439024390243901,,0.001253515950334,,11.02159857749939,
+amlnet,lightgbm,mixup_repaired_v2,1,,0.9636576053893181,,0.9996245387428021,,0.9951219512195121,,0.9414634146341461,,0.001991116998797,,13.40789270401001,
+amlnet,lightgbm,smote_repaired_v2,1,,0.9717149702859691,,0.999675330970426,,0.990243902439024,,0.9439024390243901,,0.001203977933541,,10.984493017196655,

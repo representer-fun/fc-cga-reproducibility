@@ -1,0 +1,11 @@
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.5
+scipy>=1.14
+lightgbm>=4.5
+xgboost>=2.1
+pyarrow>=18
+matplotlib>=3.9
+seaborn>=0.13
+psutil>=5.9
+torch>=2.0

@@ -1,0 +1,5 @@
+acceptance_rate,augmentation,categorical_fractionality_rate,dataset,detector,detector_hardness,edit_distance,generated,heldout_typology,label_fraction,ledger_violation_rate,mean_flow_residual,median_flow_residual,negative_feature_rate,profile_drift,rho,seed,temporal_violation_rate
+0.947183098591549,smote_repaired_v2,0,amlnet,lightgbm,0.001017578983868,0.34672792305410804,284,,1,0,0,0,0,1.31064776007188,0.30000000000000004,0,0
+0.947183098591549,feature_noise_repaired_v2,0,amlnet,lightgbm,0.11726794579582901,311.5773634708688,284,,1,0,0,0,0,1.33469599725283,0.30000000000000004,0,0
+0.947183098591549,mixup_repaired_v2,0,amlnet,lightgbm,1.5102237452961669,0.322312683350996,284,,1,0,0,0,0,0.8928589067030931,0.30000000000000004,0,0
+0.947183098591549,plausible_typology_projected_v2,0,amlnet,lightgbm,1.361499254958066,0.24935951084178,284,,1,0,0,0,0,0.29263472963602705,0.30000000000000004,0,0

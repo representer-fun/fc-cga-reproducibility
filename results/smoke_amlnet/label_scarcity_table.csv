@@ -1,0 +1,2 @@
+dataset,detector,label_fraction,heldout_typology,amount_only,full,no_profile,no_temporal,topology_only
+amlnet,lightgbm,1,layering,0.9282458568178781,0.9282458568178781,0.9293923258860711,0.9282458568178781,0.934449315675083

@@ -1,0 +1,19 @@
+{
+  "dataset": "amlnet",
+  "source": "zenodo:16736515",
+  "rows": 1090172,
+  "features": 42,
+  "nodes": 11000,
+  "positives": 1745,
+  "positive_rate": 0.001600664849216454,
+  "splits": {
+    "train": 654103,
+    "test": 218035,
+    "val": 218034
+  },
+  "typologies": {
+    "layering": 1370,
+    "structuring": 321,
+    "integration": 54
+  }
+}

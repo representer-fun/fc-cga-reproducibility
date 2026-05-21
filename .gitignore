@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local reruns can be large; cached seed-level outputs are tracked separately.
+runs/
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+
+# Raw public downloads are documented but not committed here.
+data/raw/*
+!data/raw/README.md
+
+# Model and prediction artifacts from fresh reruns.
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.npz
+predictions/
+models/
+logs/
+
+.DS_Store

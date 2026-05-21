@@ -1,0 +1,5 @@
+dataset,augmentation,detector_hardness,detector_hardness,ledger_violation_rate,ledger_violation_rate,mean_flow_residual,mean_flow_residual,profile_drift,profile_drift,temporal_violation_rate,temporal_violation_rate,acceptance_rate,acceptance_rate
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+amlnet,adv_no_projection,3.195172180826443e-08,7.746823948502053e-09,0.965151515151515,0.011842526314162253,0.409365812783552,0.005931549355932774,2.7222612734186296,0.009589789686874704,0.02,0.0,0.03484848484848434,0.011842526314162702
+amlnet,none,,,,,,,,,,,,
+amlnet,ours,3.19517218089373e-08,7.746823949469674e-09,0.0,0.0,0.0,0.0,2.758660114728137,0.013247890591382793,0.0,0.0,0.9500000000000001,0.0

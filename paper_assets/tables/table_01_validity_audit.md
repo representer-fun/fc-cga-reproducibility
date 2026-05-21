@@ -1,0 +1,22 @@
+# Validity Audit
+
+Rates are averaged over the validity-audit grid; adversarial unprojected uses the completed v2 main grid.
+
+| Method                  | Ledger violation   |   Mean flow residual | Categorical artifact   | Negative-feature artifact   |   Detector hardness |   Profile drift | Acceptance   |
+|:------------------------|:-------------------|---------------------:|:-----------------------|:----------------------------|--------------------:|----------------:|:-------------|
+| No aug.                 |                    |                      |                        |                             |                     |                 |              |
+| Feature noise           | 58.2%              |             0.347    | 49.9%                  | 35.2%                       |                2.43 |            2.08 | 39.1%        |
+| Feature noise + repair  | 0.0%               |             0        | 0.0%                   | 0.0%                        |                1.98 |            2.05 | 95.0%        |
+| SMOTE                   | 0.0%               |             0        | 5.4%                   | 0.0%                        |                0.28 |            1.46 | 95.0%        |
+| SMOTE + repair          | 0.0%               |             0        | 0.0%                   | 0.0%                        |                0.27 |            1.46 | 95.0%        |
+| Mixup                   | 0.0%               |             0.000232 | 6.1%                   | 0.0%                        |                1.29 |            1.08 | 94.9%        |
+| Mixup + repair          | 0.0%               |             0        | 0.0%                   | 0.0%                        |                1.48 |            1.08 | 95.0%        |
+| Edge rewire             | 0.0%               |             0        | 0.0%                   | 0.0%                        |                0.18 |            1.3  | 95.0%        |
+| Adversarial unprojected | 96.9%              |             0.461    |                        |                             |                2.6  |            0.68 | 3.1%         |
+| Random feasible         | 0.0%               |             0        | 0.0%                   | 0.0%                        |                0.03 |            1.3  | 95.0%        |
+| Hard projected          | 0.0%               |             0        | 0.0%                   | 0.0%                        |                6.21 |            0.53 | 95.0%        |
+| Boundary projected      | 0.0%               |             0        |                        |                             |                7.59 |            0.48 | 95.0%        |
+| Plausible hard          | 0.0%               |             0        | 0.0%                   | 0.0%                        |                5.16 |            0.3  | 95.0%        |
+| Curriculum projected    | 0.0%               |             0        | 0.0%                   | 0.0%                        |                3.56 |            0.56 | 95.0%        |
+| Typology projected      | 0.0%               |             0        | 0.0%                   | 0.0%                        |                7.05 |            0.52 | 95.0%        |
+| Plausible typology      | 0.0%               |             0        | 0.0%                   | 0.0%                        |                5.71 |            0.29 | 95.0%        |

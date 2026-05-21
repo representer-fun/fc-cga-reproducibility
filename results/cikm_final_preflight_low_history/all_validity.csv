@@ -1,0 +1,3 @@
+acceptance_rate,augmentation,categorical_fractionality_rate,dataset,detector,detector_hardness,edit_distance,eval_subset,generated,heldout_train_positives,heldout_typology,label_fraction,ledger_violation_rate,mean_flow_residual,median_flow_residual,negative_feature_rate,profile_drift,rho,seed,temporal_violation_rate
+,none,,amlnet,lightgbm,,,low_history_entity,0,0,layering,1,,,,,,0.30000000000000004,0,
+0.9393939393939391,random_feasible_v2,0.0,amlnet,lightgbm,0.15643678168569902,0.019846870268292002,low_history_entity,66,0,layering,1,0.0,0.0,0.0,0.0,2.008821543705158,0.30000000000000004,0,0.0

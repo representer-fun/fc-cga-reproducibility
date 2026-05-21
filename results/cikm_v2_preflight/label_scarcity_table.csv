@@ -1,0 +1,3 @@
+dataset,detector,label_fraction,heldout_typology,hard_projected_v2,none
+amlnet,lightgbm,1,,0.9784881268508521,0.969110317617564
+amlnet,pyg_sage,1,,0.015868451313113,0.016569869950657002

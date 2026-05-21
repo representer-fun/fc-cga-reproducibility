@@ -1,0 +1,17 @@
+{
+  "dataset": "transxion",
+  "source": "github:chaos-max/TransXion",
+  "rows": 3029170,
+  "features": 83,
+  "nodes": 47526,
+  "positives": 4641,
+  "positive_rate": 0.0015321028532568326,
+  "splits": {
+    "train": 1817502,
+    "val": 605834,
+    "test": 605834
+  },
+  "typologies": {
+    "unknown": 4641
+  }
+}

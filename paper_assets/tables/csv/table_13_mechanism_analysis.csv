@@ -1,0 +1,19 @@
+Held-out typology,Method,Generated,NN dist. to held-out positives,NN dist. to train positives,Detector hardness,Profile drift,Synthetic log amount,Held-out log amount
+integration,Curriculum projected,685,6.518 ± 0.025,0.383 ± 0.015,3.87 ± 0.09,0.73 ± 0.02,6.55 ± 0.03,10.90 ± 0.00
+integration,Hard projected,685,6.610 ± 0.023,0.354 ± 0.007,8.10 ± 0.37,0.69 ± 0.07,5.85 ± 0.05,10.90 ± 0.00
+integration,Plausible hard,685,6.658 ± 0.007,0.333 ± 0.004,6.62 ± 0.59,0.46 ± 0.02,5.86 ± 0.04,10.90 ± 0.00
+integration,Plausible typology,685,6.658 ± 0.012,0.354 ± 0.006,6.97 ± 0.47,0.46 ± 0.02,5.88 ± 0.03,10.90 ± 0.00
+integration,Random feasible,685,5.831 ± 0.080,0.266 ± 0.013,0.01 ± 0.01,1.76 ± 0.01,8.32 ± 0.02,10.90 ± 0.00
+integration,Typology projected,685,6.607 ± 0.020,0.378 ± 0.003,8.40 ± 0.31,0.70 ± 0.07,5.89 ± 0.08,10.90 ± 0.00
+layering,Curriculum projected,165,0.738 ± 0.026,0.537 ± 0.021,3.97 ± 0.13,1.46 ± 0.14,7.67 ± 0.19,8.76 ± 0.00
+layering,Hard projected,165,0.764 ± 0.022,0.617 ± 0.010,9.11 ± 0.01,1.11 ± 0.07,7.23 ± 0.08,8.76 ± 0.00
+layering,Plausible hard,165,0.741 ± 0.042,0.500 ± 0.006,7.11 ± 0.54,0.91 ± 0.08,7.04 ± 0.12,8.76 ± 0.00
+layering,Plausible typology,165,0.726 ± 0.027,0.524 ± 0.009,7.95 ± 0.10,0.85 ± 0.10,6.97 ± 0.14,8.76 ± 0.00
+layering,Random feasible,165,1.182 ± 0.285,0.376 ± 0.097,0.04 ± 0.04,2.55 ± 0.11,9.02 ± 0.13,8.76 ± 0.00
+layering,Typology projected,165,0.756 ± 0.015,0.638 ± 0.009,9.75 ± 0.17,1.08 ± 0.08,7.21 ± 0.11,8.76 ± 0.00
+structuring,Curriculum projected,568,1.175 ± 0.075,0.480 ± 0.033,3.92 ± 0.06,0.67 ± 0.02,6.56 ± 0.03,8.58 ± 0.00
+structuring,Hard projected,568,0.816 ± 0.020,0.361 ± 0.012,8.19 ± 0.40,0.63 ± 0.03,5.63 ± 0.01,8.58 ± 0.00
+structuring,Plausible hard,568,0.821 ± 0.010,0.329 ± 0.010,6.76 ± 0.58,0.43 ± 0.02,5.80 ± 0.02,8.58 ± 0.00
+structuring,Plausible typology,568,0.844 ± 0.012,0.349 ± 0.009,7.04 ± 0.43,0.43 ± 0.02,5.80 ± 0.02,8.58 ± 0.00
+structuring,Random feasible,568,2.341 ± 0.210,0.270 ± 0.026,0.03 ± 0.03,1.77 ± 0.07,8.33 ± 0.09,8.58 ± 0.00
+structuring,Typology projected,568,0.833 ± 0.019,0.382 ± 0.011,8.34 ± 0.37,0.63 ± 0.03,5.65 ± 0.01,8.58 ± 0.00

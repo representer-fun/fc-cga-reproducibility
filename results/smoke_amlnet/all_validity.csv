@@ -1,0 +1,6 @@
+acceptance_rate,augmentation,dataset,detector,detector_hardness,generated,heldout_typology,label_fraction,ledger_violation_rate,mean_flow_residual,median_flow_residual,profile_drift,rho,seed,temporal_violation_rate
+0.9454545454545451,full,amlnet,lightgbm,1.358803649941332e-07,110,layering,1,0,0,0,1.889158010854427,0.5,0,0.0
+1.0,no_profile,amlnet,lightgbm,1.358803649941332e-07,110,layering,1,0,0,0,1.8948196408070381,0.5,0,0.0
+0.9454545454545451,no_temporal,amlnet,lightgbm,1.358803649941332e-07,110,layering,1,0,0,0,1.889158010854427,0.5,0,0.08
+0.9454545454545451,amount_only,amlnet,lightgbm,1.358803649941332e-07,110,layering,1,0,0,0,1.889158010854427,0.5,0,0.0
+0.9454545454545451,topology_only,amlnet,lightgbm,1.358803649941332e-07,110,layering,1,0,0,0,1.896829535463619,0.5,0,0.0

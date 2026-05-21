@@ -1,0 +1,4 @@
+dataset,detector,label_fraction,heldout_typology,none,ours
+ellipticpp,graphsage_lite,1,,0.299907748544721,0.3683681267081427
+ellipticpp,lightgbm,1,,0.563683711222851,0.5677026502169921
+ellipticpp,xgboost,1,,0.5548364805772378,0.5544338003833347

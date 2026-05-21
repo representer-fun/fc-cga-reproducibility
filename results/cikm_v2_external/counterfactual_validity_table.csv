@@ -1,0 +1,6 @@
+dataset,augmentation,detector_hardness,detector_hardness,ledger_violation_rate,ledger_violation_rate,mean_flow_residual,mean_flow_residual,profile_drift,profile_drift,temporal_violation_rate,temporal_violation_rate,acceptance_rate,acceptance_rate
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+ellipticpp,boundary_projected_v2,7.009991733463198,1.0013438037430693,0.0,0.0,0.0,0.0,5469.766079711148,80.61284612250357,0.0,0.0,0.9499681325685151,0.0
+ellipticpp,hard_projected_v2,7.00892878026194,1.0014718350120946,0.0,0.0,0.0,0.0,6837.000704129036,100.97623952514778,0.0,0.0,0.9499681325685151,0.0
+ellipticpp,none,,,,,,,,,,,,
+ellipticpp,random_feasible_v2,0.0015399898357495558,0.0020298950242657243,0.0,0.0,0.0,0.0,79233.88130862669,318.11883529894266,0.0,0.0,0.9499681325685151,0.0

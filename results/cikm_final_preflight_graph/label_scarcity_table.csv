@@ -1,0 +1,3 @@
+dataset,detector,label_fraction,heldout_typology,none,random_feasible_v2
+amlnet,pyg_gat,1,layering,0.10549230137831,0.09178923462501401
+amlnet,pyg_sage,1,layering,0.014371641911880001,0.013710165847141001

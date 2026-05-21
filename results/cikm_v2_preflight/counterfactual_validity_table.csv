@@ -1,0 +1,4 @@
+dataset,augmentation,detector_hardness,detector_hardness,ledger_violation_rate,ledger_violation_rate,mean_flow_residual,mean_flow_residual,profile_drift,profile_drift,temporal_violation_rate,temporal_violation_rate,acceptance_rate,acceptance_rate
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+amlnet,hard_projected_v2,3.3580439173686623,0.0,0.0,0.0,0.0,0.0,0.8143648612876031,0.0,0.0,0.0,0.9470899470899471,0.0
+amlnet,none,,,,,,,,,,,,

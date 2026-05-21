@@ -1,0 +1,20 @@
+# Repaired Standard Baselines
+
+Tests whether simple post-hoc repair is enough to match ledger-conserving counterfactual generation.
+
+| Method                 |   Mean AUPRC | Ledger violation   | Categorical artifact   | Negative-feature artifact   |   Profile drift |   Detector hardness |
+|:-----------------------|-------------:|:-------------------|:-----------------------|:----------------------------|----------------:|--------------------:|
+| No aug.                |        0.617 |                    |                        |                             |                 |                     |
+| Feature noise          |        0.62  | 58.2%              | 49.9%                  | 35.2%                       |            2.08 |                2.43 |
+| Feature noise + repair |        0.619 | 0.0%               | 0.0%                   | 0.0%                        |            2.05 |                1.98 |
+| SMOTE                  |        0.62  | 0.0%               | 5.4%                   | 0.0%                        |            1.46 |                0.28 |
+| SMOTE + repair         |        0.621 | 0.0%               | 0.0%                   | 0.0%                        |            1.46 |                0.27 |
+| Mixup                  |        0.618 | 0.0%               | 6.1%                   | 0.0%                        |            1.08 |                1.29 |
+| Mixup + repair         |        0.615 | 0.0%               | 0.0%                   | 0.0%                        |            1.08 |                1.48 |
+| Edge rewire            |        0.617 | 0.0%               | 0.0%                   | 0.0%                        |            1.3  |                0.18 |
+| Random feasible        |        0.611 | 0.0%               | 0.0%                   | 0.0%                        |            1.3  |                0.03 |
+| Hard projected         |        0.61  | 0.0%               | 0.0%                   | 0.0%                        |            0.53 |                6.21 |
+| Plausible hard         |        0.61  | 0.0%               | 0.0%                   | 0.0%                        |            0.3  |                5.16 |
+| Curriculum projected   |        0.611 | 0.0%               | 0.0%                   | 0.0%                        |            0.56 |                3.56 |
+| Typology projected     |        0.61  | 0.0%               | 0.0%                   | 0.0%                        |            0.52 |                7.05 |
+| Plausible typology     |        0.612 | 0.0%               | 0.0%                   | 0.0%                        |            0.29 |                5.71 |

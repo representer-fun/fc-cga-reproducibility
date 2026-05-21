@@ -1,0 +1,5 @@
+acceptance_rate,augmentation,categorical_fractionality_rate,dataset,detector,detector_hardness,edit_distance,eval_subset,generated,heldout_train_positives,heldout_typology,label_fraction,ledger_violation_rate,mean_flow_residual,median_flow_residual,negative_feature_rate,profile_drift,rho,seed,temporal_violation_rate
+,none,,amlnet,pyg_sage,,,all,0,0,layering,1,,,,,,0.2,0,
+0.9318181818181811,random_feasible_v2,0.0,amlnet,pyg_sage,0.00042274556361600004,0.026843743190625,all,44,0,layering,1,0.0,0.0,0.0,0.0,2.081746447215296,0.2,0,0.0
+,none,,amlnet,pyg_gat,,,all,0,0,layering,1,,,,,,0.2,0,
+0.9318181818181811,random_feasible_v2,0.0,amlnet,pyg_gat,0.00042274556361600004,0.026843743190625,all,44,0,layering,1,0.0,0.0,0.0,0.0,2.081746447215296,0.2,0,0.0

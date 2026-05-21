@@ -1,0 +1,7 @@
+dataset,augmentation,detector_hardness,detector_hardness,ledger_violation_rate,ledger_violation_rate,mean_flow_residual,mean_flow_residual,profile_drift,profile_drift,temporal_violation_rate,temporal_violation_rate,acceptance_rate,acceptance_rate
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+transxion,adv_no_projection,0.034452160885227005,0.0,0.9594594594594591,0.0,0.40162697037688105,0.0,0.528062479373514,0.0,0.02,0.0,0.04054054054054,0.0
+transxion,none,,,,,,,,,,,,
+transxion,ours,0.034452160885227005,0.0,0.0,0.0,0.0,0.0,0.35075368118523703,0.0,0.0,0.0,0.9500000000000001,0.0
+transxion,random_feasible,0.006740077271028,0.0,0.0,0.0,0.0,0.0,0.42211322304855403,0.0,0.0,0.0,0.9500000000000001,0.0
+transxion,random_graph,0.006740077271028,0.0,0.935135135135135,0.0,0.23765820200853502,0.0,0.479447346545052,0.0,0.05000000000000001,0.0,0.06486486486486401,0.0

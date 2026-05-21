@@ -1,0 +1,2 @@
+dataset,detector,label_fraction,heldout_typology,feature_noise_repaired_v2,mixup_repaired_v2,smote_repaired_v2
+amlnet,lightgbm,1,,0.9729792403542501,0.9636576053893181,0.9717149702859691

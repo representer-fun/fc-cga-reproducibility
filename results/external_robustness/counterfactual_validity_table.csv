@@ -1,0 +1,4 @@
+dataset,augmentation,detector_hardness,detector_hardness,ledger_violation_rate,ledger_violation_rate,mean_flow_residual,mean_flow_residual,profile_drift,profile_drift,temporal_violation_rate,temporal_violation_rate,acceptance_rate,acceptance_rate
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+ellipticpp,none,,,,,,,,,,,,
+ellipticpp,ours,2.4728342273430895e-06,1.1886062621649954e-07,0.0,0.0,0.0,0.0,71797.62556503342,434.5982647780794,0.0,0.0,0.9499681325685151,0.0

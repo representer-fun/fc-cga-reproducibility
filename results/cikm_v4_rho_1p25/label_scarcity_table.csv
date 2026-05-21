@@ -1,0 +1,3 @@
+dataset,detector,label_fraction,heldout_typology,curriculum_projected_v2,plausible_hard_projected_v2,plausible_typology_projected_v2,random_feasible_v2,typology_projected_v2
+amlnet,lightgbm,1,,0.9765801167182464,0.9794138717990352,0.9781744209292477,0.9728795258166271,0.9776348677518584
+transxion,lightgbm,1,,0.2635591613508307,0.2559062794267954,0.2616905558190667,0.2686170414685767,0.25972304928244133

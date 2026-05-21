@@ -1,0 +1,187 @@
+{
+  "datasets": [
+    {
+      "path": "/home/ubuntu/flow_fraud/external/TransXion/data/tx.csv",
+      "size_mb": 233.8,
+      "columns": [
+        "Timestamp",
+        "From Bank",
+        "From Account",
+        "To Bank",
+        "To Account",
+        "Amount Received",
+        "Receiving Currency",
+        "Amount Paid",
+        "Payment Currency",
+        "Payment Format",
+        "Is Laundering"
+      ],
+      "dtypes": {
+        "Timestamp": "object",
+        "From Bank": "int64",
+        "From Account": "object",
+        "To Bank": "int64",
+        "To Account": "object",
+        "Amount Received": "float64",
+        "Receiving Currency": "object",
+        "Amount Paid": "float64",
+        "Payment Currency": "object",
+        "Payment Format": "object",
+        "Is Laundering": "int64"
+      },
+      "sample": [
+        {
+          "Timestamp": "2025-01-01 00:00:29",
+          "From Bank": 3295718,
+          "From Account": "A009852",
+          "To Bank": 2657408,
+          "To Account": "A010012",
+          "Amount Received": 4.4,
+          "Receiving Currency": "CHF",
+          "Amount Paid": 8.06,
+          "Payment Currency": "AUD",
+          "Payment Format": "Mobile",
+          "Is Laundering": 0
+        },
+        {
+          "Timestamp": "2025-01-01 00:00:40",
+          "From Bank": 3186407,
+          "From Account": "A007397",
+          "To Bank": 3295718,
+          "To Account": "A010077",
+          "Amount Received": 58.45,
+          "Receiving Currency": "CNY",
+          "Amount Paid": 58.51,
+          "Payment Currency": "CNY",
+          "Payment Format": "Cash",
+          "Is Laundering": 0
+        },
+        {
+          "Timestamp": "2025-01-01 00:01:22",
+          "From Bank": 3186407,
+          "From Account": "A007852",
+          "To Bank": 2793615,
+          "To Account": "A003712",
+          "Amount Received": 5576.27,
+          "Receiving Currency": "CNY",
+          "Amount Paid": 5581.85,
+          "Payment Currency": "CNY",
+          "Payment Format": "Mobile",
+          "Is Laundering": 0
+        }
+      ],
+      "dataset": "transxion",
+      "source": "github:chaos-max/TransXion"
+    },
+    {
+      "path": "/home/ubuntu/flow_fraud/data/raw/AMLNet_August_2025.csv",
+      "size_mb": 659.3,
+      "columns": [
+        "step",
+        "type",
+        "amount",
+        "category",
+        "nameOrig",
+        "nameDest",
+        "oldbalanceOrg",
+        "newbalanceOrig",
+        "isFraud",
+        "isMoneyLaundering",
+        "laundering_typology",
+        "metadata",
+        "fraud_probability",
+        "hour",
+        "day_of_week",
+        "day_of_month",
+        "month"
+      ],
+      "dtypes": {
+        "step": "int64",
+        "type": "object",
+        "amount": "float64",
+        "category": "object",
+        "nameOrig": "object",
+        "nameDest": "object",
+        "oldbalanceOrg": "float64",
+        "newbalanceOrig": "float64",
+        "isFraud": "int64",
+        "isMoneyLaundering": "int64",
+        "laundering_typology": "object",
+        "metadata": "object",
+        "fraud_probability": "float64",
+        "hour": "int64",
+        "day_of_week": "int64",
+        "day_of_month": "int64",
+        "month": "int64"
+      },
+      "sample": [
+        {
+          "step": 0,
+          "type": "DEBIT",
+          "amount": 298.8420405590732,
+          "category": "Other",
+          "nameOrig": "C8083",
+          "nameDest": "C7053",
+          "oldbalanceOrg": 455489.3215714281,
+          "newbalanceOrig": 455190.47953086905,
+          "isFraud": 0,
+          "isMoneyLaundering": 0,
+          "laundering_typology": "normal",
+          "metadata": "{'timestamp': datetime.datetime(2025, 2, 4, 12, 22, 36, 770518), 'location': {'city': 'Sydney', 'state': 'NSW', 'country': 'Australia', 'postcode': '2755'}, 'device_info': {'type': 'Mobile', 'os': 'Windows', 'ip_address': '109.75.48.170'}, 'payment_method': 'BSB_Account', 'merchant_info': None, 'risk_indicators': {'amount_vs_average': 2.403414656867827, 'customer_risk_score': 100, 'category_risk': 'medium', 'risk_score': 66.30275436133387, 'unusual_time': False, 'unusual_location': False}}",
+          "fraud_probability": NaN,
+          "hour": 12,
+          "day_of_week": 1,
+          "day_of_month": 4,
+          "month": 2
+        },
+        {
+          "step": 0,
+          "type": "DEBIT",
+          "amount": 93.08791550350834,
+          "category": "Recreation",
+          "nameOrig": "C5575",
+          "nameDest": "C1117",
+          "oldbalanceOrg": 229508.2912139662,
+          "newbalanceOrig": 229415.2032984627,
+          "isFraud": 0,
+          "isMoneyLaundering": 0,
+          "laundering_typology": "normal",
+          "metadata": "{'timestamp': datetime.datetime(2025, 2, 4, 12, 44, 31, 770518), 'location': {'city': 'Brisbane', 'state': 'QLD', 'country': 'Australia', 'postcode': '4976'}, 'device_info': {'type': 'Web', 'os': 'Android', 'ip_address': '208.137.250.85'}, 'payment_method': 'CardNumber', 'merchant_info': None, 'risk_indicators': {'amount_vs_average': 2.0941160980239246, 'customer_risk_score': 100, 'category_risk': 'medium', 'risk_score': 62.16741717853814, 'unusual_time': False, 'unusual_location': False}}",
+          "fraud_probability": NaN,
+          "hour": 12,
+          "day_of_week": 1,
+          "day_of_month": 4,
+          "month": 2
+        },
+        {
+          "step": 0,
+          "type": "EFTPOS",
+          "amount": 155.644863519644,
+          "category": "Healthcare",
+          "nameOrig": "C1549",
+          "nameDest": "C1423",
+          "oldbalanceOrg": 202568.80685550015,
+          "newbalanceOrig": 202413.1619919805,
+          "isFraud": 0,
+          "isMoneyLaundering": 0,
+          "laundering_typology": "normal",
+          "metadata": "{'timestamp': datetime.datetime(2025, 2, 4, 12, 48, 1, 770518), 'location': {'city': 'Sydney', 'state': 'NSW', 'country': 'Australia', 'postcode': '2927'}, 'device_info': {'type': 'Mobile', 'os': 'Windows', 'ip_address': '183.206.224.165'}, 'payment_method': 'PayID', 'merchant_info': None, 'risk_indicators': {'amount_vs_average': 0.5259576835569831, 'customer_risk_score': 100, 'category_risk': 'low', 'risk_score': 49.266091563396515, 'unusual_time': False, 'unusual_location': False}}",
+          "fraud_probability": NaN,
+          "hour": 12,
+          "day_of_week": 1,
+          "day_of_month": 4,
+          "month": 2
+        }
+      ],
+      "dataset": "amlnet",
+      "source": "zenodo:16736515"
+    }
+  ],
+  "download_notes": [
+    {
+      "dataset": "ellipticplusplus",
+      "status": "checkout incomplete",
+      "reason": "Git LFS quota blocked large CSV checkout from the upstream repository"
+    }
+  ]
+}

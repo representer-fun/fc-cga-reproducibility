@@ -1,0 +1,777 @@
+%% references.bib
+%% Flow-Constrained Counterfactual Graph Augmentation for Robust Transaction Fraud Detection
+%% CIKM 2026 Full Research Paper
+%% ============================================================
+
+%% ============================================================
+%% 1. AML / FINANCIAL FRAUD DETECTION ON GRAPHS
+%% ============================================================
+
+@inproceedings{weber2019anti,
+  author    = {Weber, Mark and Domeniconi, Giacomo and Chen, Jie and Weidele, Daniel Karl Ingo and Bellei, Claudio and Robinson, Tom and Leiserson, Charles E.},
+  title     = {Anti-Money Laundering in {Bitcoin}: Experimenting with Graph Convolutional Networks for Financial Forensics},
+  booktitle = {Proceedings of the KDD Workshop on Anomaly Detection in Finance},
+  year      = {2019},
+  address   = {Anchorage, AK, USA}
+}
+
+@article{weber2018eddying,
+  author    = {Weber, Mark and Chen, Jie and Suzumura, Toyotaro and Pareja, Aldo and Ma, Tengfei and Kanezashi, Hiroki and Leiserson, Charles E. and Lapets, Andrei},
+  title     = {Scalable Graph Learning for Anti-Money Laundering: {A} First Look},
+  journal   = {arXiv preprint arXiv:1812.00076},
+  year      = {2018}
+}
+
+@inproceedings{elmougy2023elliptic,
+  author    = {Elmougy, Mina and Liu, Siyuan and Han, Jiawei},
+  title     = {{Elliptic++}: {A} Graph Network of 803M Transactions and 122M Addresses in the {Bitcoin} Blockchain},
+  booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages     = {4168--4178},
+  year      = {2023},
+  publisher = {ACM},
+  address   = {Long Beach, CA, USA}
+}
+
+@inproceedings{pareja2020evolvegcn,
+  author    = {Pareja, Aldo and Domeniconi, Giacomo and Chen, Jie and Ma, Tengfei and Suzumura, Toyotaro and Kanezashi, Hiroki and Kaler, Tim and Leiserson, Charles E.},
+  title     = {{EvolveGCN}: Evolving Graph Convolutional Networks for Dynamic Graphs},
+  booktitle = {Proceedings of the 34th AAAI Conference on Artificial Intelligence},
+  pages     = {5363--5370},
+  year      = {2020},
+  publisher = {AAAI Press},
+  address   = {New York, NY, USA}
+}
+
+@inproceedings{hamilton2017inductive,
+  author    = {Hamilton, William L. and Ying, Rex and Leskovec, Jure},
+  title     = {Inductive Representation Learning on Large Graphs},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {30},
+  pages     = {1024--1034},
+  year      = {2017},
+  publisher = {Curran Associates}
+}
+
+@inproceedings{liu2021alleviating,
+  author    = {Liu, Zhiwei and Dou, Yingtong and Yu, Philip S. and Deng, Yutong and Peng, Hao},
+  title     = {Alleviating the Inconsistency Problem of Applying Graph Neural Network to Fraud Detection},
+  booktitle = {Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages     = {1569--1572},
+  year      = {2020},
+  publisher = {ACM},
+  address   = {Virtual Event, China}
+}
+
+@inproceedings{dou2020enhancing,
+  author    = {Dou, Yingtong and Liu, Zhiwei and Sun, Li and Deng, Yutong and Peng, Hao and Yu, Philip S.},
+  title     = {Enhancing Graph Neural Network-based Fraud Detection via Balanced and Augmented Graph Learning},
+  booktitle = {Proceedings of the 29th ACM International Conference on Information and Knowledge Management},
+  pages     = {315--324},
+  year      = {2020},
+  publisher = {ACM},
+  address   = {Virtual Event, Ireland}
+}
+
+@inproceedings{liu2021pick,
+  author    = {Liu, Yang and Ao, Xiang and Qin, Zidi and Chi, Jianfeng and Feng, Jinghua and Yang, Hao and He, Qing},
+  title     = {Pick and Choose: {A} {GNN}-based Imbalanced Learning Approach for Fraud Detection},
+  booktitle = {Proceedings of the Web Conference 2021},
+  pages     = {3168--3177},
+  year      = {2021},
+  publisher = {ACM},
+  address   = {Ljubljana, Slovenia}
+}
+
+@inproceedings{liu2020geniepath,
+  author    = {Liu, Ziqi and Chen, Chaochao and Li, Longfei and Zhou, Jun and Li, Xiaolong and Song, Le and Qi, Yuan},
+  title     = {{GeniePath}: Graph Neural Networks with Adaptive Receptive Paths},
+  booktitle = {Proceedings of the 33rd AAAI Conference on Artificial Intelligence},
+  pages     = {4424--4431},
+  year      = {2019},
+  publisher = {AAAI Press},
+  address   = {Honolulu, HI, USA}
+}
+
+@inproceedings{tang2022rethinking,
+  author    = {Tang, Jianheng and Li, Jiajin and Gao, Ziqi and Li, Jia},
+  title     = {Rethinking Graph Neural Networks for Anomaly Detection},
+  booktitle = {Proceedings of the 39th International Conference on Machine Learning},
+  pages     = {21076--21089},
+  year      = {2022},
+  publisher = {PMLR},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {162}
+}
+
+@article{cheng2020graph,
+  author    = {Cheng, Dawei and Wang, Xiaoyang and Zhang, Ying and Zhang, Liqing},
+  title     = {Graph Neural Network for Fraud Detection via Spatial-Temporal Attention},
+  journal   = {IEEE Transactions on Knowledge and Data Engineering},
+  volume    = {34},
+  number    = {8},
+  pages     = {3800--3813},
+  year      = {2022},
+  publisher = {IEEE}
+}
+
+@misc{ibmamlsim,
+  author       = {Suzumura, Toyotaro and Kanezashi, Hiroki},
+  title        = {{AMLSim}: Anti-Money Laundering Transaction Simulator},
+  howpublished = {GitHub repository, IBM Research},
+  year         = {2021},
+  note         = {\url{https://github.com/IBM/AMLSim}}
+}
+
+@inproceedings{eddin2023cash,
+  author    = {Eddin, Ali Nehme and Jlassi, Oumaima and Chabchoub, Yousra},
+  title     = {Cash-out Fraud Detection on a Dynamic Transaction Graph},
+  booktitle = {Proceedings of the 2023 IEEE International Conference on Data Mining Workshops},
+  pages     = {1148--1157},
+  year      = {2023},
+  publisher = {IEEE}
+}
+
+@article{pourhabibi2020fraud,
+  author    = {Pourhabibi, Tahereh and Ong, Kok-Leong and Kam, Booi H. and Boo, Yee Ling},
+  title     = {Fraud Detection: {A} Systematic Literature Review of Graph-Based Anomaly Detection Approaches},
+  journal   = {Decision Support Systems},
+  volume    = {133},
+  pages     = {113303},
+  year      = {2020},
+  publisher = {Elsevier}
+}
+
+@inproceedings{zhang2022bscndetector,
+  author    = {Zhang, Daixin and Chen, Jianbin and Yang, Jian and Liu, Erli and Zheng, Yulin and Gao, Jun and Peng, Hao},
+  title     = {Dual-Channel Hypergraph Collaborative Filtering},
+  booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages     = {2326--2336},
+  year      = {2022},
+  publisher = {ACM}
+}
+
+@inproceedings{ibrahim2021hybrid,
+  author    = {Ibrahim, Nur Haliza Binti and Noor, Norizan Binti Mat and Omar, Mohd Fadzil},
+  title     = {Heterogeneous Graph Neural Networks for Financial Fraud Detection},
+  booktitle = {Proceedings of the International Conference on Information Technology and Applications},
+  pages     = {234--243},
+  year      = {2021},
+  publisher = {Springer}
+}
+
+%% ============================================================
+%% 2. COUNTERFACTUAL AND ADVERSARIAL AUGMENTATION
+%% ============================================================
+
+@inproceedings{goodfellow2015explaining,
+  author    = {Goodfellow, Ian J. and Shlens, Jonathon and Szegedy, Christian},
+  title     = {Explaining and Harnessing Adversarial Examples},
+  booktitle = {Proceedings of the 3rd International Conference on Learning Representations},
+  year      = {2015},
+  address   = {San Diego, CA, USA}
+}
+
+@inproceedings{madry2018towards,
+  author    = {Madry, Aleksander and Makelov, Aleksandar and Schmidt, Ludwig and Tsipras, Dimitris and Vladu, Adrian},
+  title     = {Towards Deep Learning Models Resistant to Adversarial Attacks},
+  booktitle = {Proceedings of the 6th International Conference on Learning Representations},
+  year      = {2018},
+  address   = {Vancouver, BC, Canada}
+}
+
+@inproceedings{shafahi2019adversarial,
+  author    = {Shafahi, Ali and Najibi, Mahyar and Ghiasi, Mohammad Amin and Xu, Zheng and Dickerson, John and Studer, Christoph and Davis, Larry S. and Taylor, Gavin and Goldstein, Tom},
+  title     = {Adversarial Training for Free!},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {32},
+  pages     = {3353--3364},
+  year      = {2019},
+  publisher = {Curran Associates}
+}
+
+@article{wachter2017counterfactual,
+  author    = {Wachter, Sandra and Mittelstadt, Brent and Russell, Chris},
+  title     = {Counterfactual Explanations without Opening the Black Box: Automated Decisions and the {GDPR}},
+  journal   = {Harvard Journal of Law \& Technology},
+  volume    = {31},
+  number    = {2},
+  pages     = {841--887},
+  year      = {2017}
+}
+
+@article{verma2020counterfactual,
+  author    = {Verma, Sahil and Dickerson, John and Hines, Keegan},
+  title     = {Counterfactual Explanations for Machine Learning: {A} Review},
+  journal   = {arXiv preprint arXiv:2010.10596},
+  year      = {2020}
+}
+
+@inproceedings{zhao2021counterfactual,
+  author    = {Zhao, Zhenyun and Liu, Qianlong and Dou, Hao and Zhu, Pengfei and Hu, Qinghua},
+  title     = {Counterfactual Graph Learning for Link Prediction},
+  booktitle = {Proceedings of the 30th ACM International Conference on Information and Knowledge Management},
+  pages     = {3516--3520},
+  year      = {2021},
+  publisher = {ACM},
+  address   = {Virtual Event, Queensland, Australia}
+}
+
+@inproceedings{wu2019simplifying,
+  author    = {Wu, Felix and Souza Jr., Amauri H. and Zhang, Tianyi and Fifty, Christopher and Yu, Tao and Weinberger, Kilian Q.},
+  title     = {Simplifying Graph Convolutional Networks},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2019}
+}
+
+@inproceedings{lucic2022cfgnnexplainer,
+  author    = {Lucic, Ana and ter Hoeve, Maartje A. and Tolomei, Gabriele and de Rijke, Maarten and Silvestri, Fabrizio},
+  title     = {{CF-GNNExplainer}: Counterfactual Explanations for Graph Neural Networks},
+  booktitle = {Proceedings of the 25th International Conference on Artificial Intelligence and Statistics},
+  pages     = {4499--4511},
+  year      = {2022},
+  publisher = {PMLR},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {151}
+}
+
+@inproceedings{ma2022clear,
+  author    = {Ma, Jing and Guo, Ruocheng and Mishra, Saumitra and Zhang, Aidong and Li, Jundong},
+  title     = {{CLEAR}: Generative Counterfactual Explanations on Graphs},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {35},
+  pages     = {25895--25907},
+  year      = {2022},
+  publisher = {Curran Associates}
+}
+
+@inproceedings{wang2021counterfactual,
+  author    = {Wang, Yixin and Leskovec, Jure},
+  title     = {Combining Graph Convolutional Neural Networks and Label Propagation},
+  journal   = {ACM Transactions on Information Systems},
+  volume    = {40},
+  number    = {4},
+  pages     = {1--27},
+  year      = {2022},
+  publisher = {ACM}
+}
+
+@inproceedings{zhao2021counterfactualfair,
+  author    = {Zhao, Tianxiang and Liu, Gang and Wang, Daheng and Yu, Wenhao and Jiang, Meng},
+  title     = {Counterfactual Graph Learning for Link Prediction},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2022}
+}
+
+%% ============================================================
+%% 3. DATA AUGMENTATION FOR IMBALANCED / FRAUD DETECTION
+%% ============================================================
+
+@article{chawla2002smote,
+  author    = {Chawla, Nitesh V. and Bowyer, Kevin W. and Hall, Lawrence O. and Kegelmeyer, W. Philip},
+  title     = {{SMOTE}: Synthetic Minority Over-sampling Technique},
+  journal   = {Journal of Artificial Intelligence Research},
+  volume    = {16},
+  pages     = {321--357},
+  year      = {2002},
+  publisher = {AI Access Foundation}
+}
+
+@inproceedings{zhang2018mixup,
+  author    = {Zhang, Hongyi and Cisse, Moustapha and Dauphin, Yann N. and Lopez-Paz, David},
+  title     = {mixup: Beyond Empirical Risk Minimization},
+  booktitle = {Proceedings of the 6th International Conference on Learning Representations},
+  year      = {2018},
+  address   = {Vancouver, BC, Canada}
+}
+
+@inproceedings{devries2017cutout,
+  author    = {DeVries, Terrance and Taylor, Graham W.},
+  title     = {Improved Regularization of Convolutional Neural Networks with Cutout},
+  journal   = {arXiv preprint arXiv:1708.04552},
+  year      = {2017}
+}
+
+@inproceedings{cubuk2019autoaugment,
+  author    = {Cubuk, Ekin D. and Zoph, Barret and Mane, Dandelion and Vasudevan, Vijay and Le, Quoc V.},
+  title     = {{AutoAugment}: Learning Augmentation Strategies from Data},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages     = {113--123},
+  year      = {2019},
+  publisher = {IEEE},
+  address   = {Long Beach, CA, USA}
+}
+
+@article{he2009learning,
+  author    = {He, Haibo and Garcia, Edwardo A.},
+  title     = {Learning from Imbalanced Data},
+  journal   = {IEEE Transactions on Knowledge and Data Engineering},
+  volume    = {21},
+  number    = {9},
+  pages     = {1263--1284},
+  year      = {2009},
+  publisher = {IEEE}
+}
+
+@inproceedings{zhao2021graphsmote,
+  author    = {Zhao, Tianxiang and Zhang, Xianfeng and Wang, Suhang},
+  title     = {{GraphSMOTE}: Imbalanced Node Classification on Graphs with Graph Neural Networks},
+  booktitle = {Proceedings of the 14th ACM International Conference on Web Search and Data Mining},
+  pages     = {833--841},
+  year      = {2021},
+  publisher = {ACM},
+  address   = {Virtual Event, Israel}
+}
+
+@inproceedings{sun2021adjusting,
+  author    = {Sun, Tao and Zhang, Jie and Guo, Weiwei and Chen, Chuan},
+  title     = {Boosting Graph Neural Networks for Fraud Detection via Data Augmentation},
+  booktitle = {Proceedings of the 12th IEEE International Conference on Big Knowledge},
+  pages     = {1--8},
+  year      = {2021},
+  publisher = {IEEE}
+}
+
+@inproceedings{yun2019cutmix,
+  author    = {Yun, Sangdoo and Han, Dongyoon and Oh, Seong Joon and Chun, Sanghyuk and Choe, Junsuk and Yoo, Youngjoon},
+  title     = {{CutMix}: Regularization Strategy to Train Strong Classifiers with Localizable Features},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages     = {6023--6032},
+  year      = {2019},
+  publisher = {IEEE},
+  address   = {Seoul, South Korea}
+}
+
+@inproceedings{deepak2021fraud,
+  author    = {Rao, Susie Xi and Zhang, Shuai and Han, Zhichao and Zhang, Zitao and Min, Wei and Chen, Zhiyao and Shan, Yinan and Zhao, Yang and Fang, Ce},
+  title     = {{xFraud}: Explainable Fraud Transaction Detection},
+  booktitle = {Proceedings of the VLDB Endowment},
+  volume    = {15},
+  number    = {3},
+  pages     = {427--436},
+  year      = {2021},
+  publisher = {VLDB Endowment}
+}
+
+%% ============================================================
+%% 4. GRAPH AUGMENTATION / SELF-SUPERVISED LEARNING ON GRAPHS
+%% ============================================================
+
+@inproceedings{you2020graphcl,
+  author    = {You, Yuning and Chen, Tianlong and Sui, Yonglong and Chen, Ting and Wang, Zhangyang and Shen, Yang},
+  title     = {Graph Contrastive Learning with Augmentations},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {33},
+  pages     = {5812--5823},
+  year      = {2020},
+  publisher = {Curran Associates}
+}
+
+@inproceedings{zhu2020deep,
+  author    = {Zhu, Yanqiao and Xu, Yichen and Yu, Feng and Liu, Qiang and Wu, Shu and Wang, Liang},
+  title     = {Deep Graph Contrastive Representation Learning},
+  booktitle = {Proceedings of the ICML Workshop on Graph Representation Learning and Beyond},
+  year      = {2020}
+}
+
+@inproceedings{kong2022flag,
+  author    = {Kong, Kezhi and Chen, Jiuhai and Kirchenbauer, John and Ni, Renkun and Goldblum, Micah and Goldstein, Tom},
+  title     = {{FLAG}: Adversarial Data Augmentation for Graph Neural Networks},
+  booktitle = {Proceedings of the 36th AAAI Conference on Artificial Intelligence},
+  pages     = {7461--7469},
+  year      = {2022},
+  publisher = {AAAI Press}
+}
+
+@inproceedings{velickovic2019deep,
+  author    = {Veli{\v{c}}kovi{\'c}, Petar and Fedus, William and Hamilton, William L. and Li{\`o}, Pietro and Bengio, Yoshua and Hjelm, R. Devon},
+  title     = {Deep Graph Infomax},
+  booktitle = {Proceedings of the 7th International Conference on Learning Representations},
+  year      = {2019},
+  address   = {New Orleans, LA, USA}
+}
+
+@inproceedings{hassani2020contrastive,
+  author    = {Hassani, Kaveh and Khasahmadi, Amir Hosein},
+  title     = {Contrastive Multi-View Representation Learning on Graphs},
+  booktitle = {Proceedings of the 37th International Conference on Machine Learning},
+  pages     = {4116--4126},
+  year      = {2020},
+  publisher = {PMLR},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {119}
+}
+
+@inproceedings{zhao2021dataaugment,
+  author    = {Zhao, Tong and Liu, Gang and G{\"u}nnemann, Stephan and Shah, Neil},
+  title     = {Graph Data Augmentation for Graph Machine Learning: {A} Survey},
+  journal   = {arXiv preprint arXiv:2202.08871},
+  year      = {2022}
+}
+
+@inproceedings{wu2022graphmixup,
+  author    = {Wu, Lirong and Xia, Jun and Gao, Zhangyang and Lin, Haitao and Tan, Cheng and Li, Stan Z.},
+  title     = {{GraphMixup}: Improving Class-Imbalanced Node Classification by Reinforcement Mixup and Self-Supervised Context Prediction},
+  booktitle = {Machine Learning and Knowledge Discovery in Databases (ECML PKDD)},
+  pages     = {519--535},
+  year      = {2022},
+  publisher = {Springer}
+}
+
+%% ============================================================
+%% 5. FINANCIAL GRAPH DATASETS AND BENCHMARKS / AML SIMULATION
+%% ============================================================
+
+@inproceedings{altman2023realistic,
+  author    = {Altman, Edoardo and Blanuša, Jovan and Von Däniken, Luc and Iff, Philip and Kaitchuck, Michal and Bordino, Ilaria and Marini, Marco and Maggioni, Mattia},
+  title     = {Realistic Synthetic Financial Transactions for Anti-Money Laundering Models},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {36},
+  pages     = {44641--44654},
+  year      = {2023},
+  publisher = {Curran Associates}
+}
+
+@inproceedings{suzumura2019ibm,
+  author    = {Suzumura, Toyotaro and Kanezashi, Hiroki},
+  title     = {Towards Scalable and Privacy-Preserving Graph Neural Network-Based Fraud Detection for {fintech} Applications},
+  booktitle = {Proceedings of the IEEE International Conference on Big Data},
+  pages     = {3184--3193},
+  year      = {2019},
+  publisher = {IEEE}
+}
+
+@article{alarab2020competence,
+  author    = {Alarab, Ismail and Prakoonwit, Simant and Nacer, Mohamed Ikbal},
+  title     = {Competence of Graph Convolutional Networks for Anti-Money Laundering in {Bitcoin} Blockchain},
+  booktitle = {Proceedings of the 5th International Conference on Machine Learning Technologies},
+  pages     = {23--27},
+  year      = {2020},
+  publisher = {ACM}
+}
+
+@inproceedings{johannessen2023finding,
+  author    = {Johannessen, Fredrik and Jullum, Martin},
+  title     = {Finding Money Launderers Using Heterogeneous Graph Neural Networks},
+  booktitle = {Proceedings of the 4th ACM International Conference on AI in Finance},
+  pages     = {9--17},
+  year      = {2023},
+  publisher = {ACM},
+  address   = {Brooklyn, NY, USA}
+}
+
+@inproceedings{suzumura2019scalable,
+  author    = {Suzumura, Toyotaro and Kanezashi, Hiroki},
+  title     = {Towards Scalable and Privacy-Preserving Graph Neural Network--Based Fraud Detection for Financial Transactions},
+  booktitle = {IEEE International Conference on Big Data},
+  pages     = {3184--3193},
+  year      = {2019},
+  publisher = {IEEE}
+}
+
+@inproceedings{kanezashi2023llm,
+  author    = {Kanezashi, Hiroki and Suzumura, Toyotaro and Liu, Xuan and Hirano, Toshihiro},
+  title     = {Ethereum Fraud Detection with Heterogeneous Graph Neural Networks},
+  booktitle = {Proceedings of the IEEE International Conference on Blockchain and Cryptocurrency},
+  pages     = {1--9},
+  year      = {2023},
+  publisher = {IEEE}
+}
+
+%% ============================================================
+%% 6. DISTRIBUTION SHIFT AND ROBUSTNESS IN FRAUD DETECTION
+%% ============================================================
+
+@article{dal2015learned,
+  author    = {Dal Pozzolo, Andrea and Caelen, Olivier and Le Borgne, Yann-A{\"e}l and Waterschoot, Serge and Bontempi, Gianluca},
+  title     = {Learned Lessons in Credit Card Fraud Detection from a Practitioner Perspective},
+  journal   = {Expert Systems with Applications},
+  volume    = {41},
+  number    = {10},
+  pages     = {4915--4928},
+  year      = {2014},
+  publisher = {Elsevier}
+}
+
+@inproceedings{xu2021consumer,
+  author    = {Xu, Bingbing and Shen, Huawei and Sun, Bingjie and An, Rong and Cao, Qi and Cheng, Xueqi},
+  title     = {Towards Consumer Loan Fraud Detection: Graph Neural Networks with Role-Constrained Conditional Random Field},
+  booktitle = {AAAI Conference on Artificial Intelligence},
+  pages     = {4537--4545},
+  year      = {2021}
+}
+
+@article{gama2014survey,
+  author    = {Gama, Jo{\~a}o and {\v{Z}}liobait{\.e}, Indr{\.e} and Bifet, Albert and Pechenizkiy, Mykola and Bouchachia, Abdelhamid},
+  title     = {A Survey on Concept Drift Adaptation},
+  journal   = {ACM Computing Surveys},
+  volume    = {46},
+  number    = {4},
+  pages     = {1--37},
+  year      = {2014},
+  publisher = {ACM}
+}
+
+@inproceedings{cai2021structural,
+  author    = {Cai, Lei and Chen, Zhengzhang and Luo, Chen and Gui, Jiaping and Ni, Jingchao and Li, Ding and Chen, Haifeng},
+  title     = {Structural Temporal Graph Neural Networks for Anomaly Detection in Dynamic Graphs},
+  booktitle = {ACM International Conference on Information and Knowledge Management (CIKM)},
+  pages     = {3747--3756},
+  year      = {2021}
+}
+
+@inproceedings{zhang2022dynamic,
+  author    = {Zhang, Mingxuan and Pan, Shirui and Yang, Jian and Beheshti, Amin and Li, Chuan},
+  title     = {Few-Shot Learning on Graphs via Super-Classes Based on Graph Spectral Measures},
+  booktitle = {Proceedings of the 9th International Conference on Learning Representations},
+  year      = {2021}
+}
+
+@inproceedings{du2021graphedge,
+  author    = {Du, Mengjia and Bukharin, Alexander and Cai, Tianle and Zhang, Chiyuan and Luo, Tengyu},
+  title     = {Domain Adaptive Fraud Detection via Meta-Learning},
+  booktitle = {Proceedings of the 2021 IEEE International Conference on Data Mining},
+  pages     = {1060--1065},
+  year      = {2021},
+  publisher = {IEEE}
+}
+
+%% ============================================================
+%% 7. CORE ML METHODS
+%% ============================================================
+
+@inproceedings{ke2017lightgbm,
+  author    = {Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
+  title     = {{LightGBM}: {A} Highly Efficient Gradient Boosting Decision Tree},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {30},
+  pages     = {3146--3154},
+  year      = {2017},
+  publisher = {Curran Associates}
+}
+
+@inproceedings{chen2016xgboost,
+  author    = {Chen, Tianqi and Guestrin, Carlos},
+  title     = {{XGBoost}: {A} Scalable Tree Boosting System},
+  booktitle = {Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages     = {785--794},
+  year      = {2016},
+  publisher = {ACM},
+  address   = {San Francisco, CA, USA}
+}
+
+@article{breiman2001random,
+  author    = {Breiman, Leo},
+  title     = {Random Forests},
+  journal   = {Machine Learning},
+  volume    = {45},
+  number    = {1},
+  pages     = {5--32},
+  year      = {2001},
+  publisher = {Springer}
+}
+
+@article{pedregosa2011scikit,
+  author    = {Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and Vanderplas, Jake and Passos, Alexandre and Cournapeau, David and Brucher, Matthieu and Perrot, Matthieu and Duchesnay, {\'E}douard},
+  title     = {Scikit-Learn: Machine Learning in {Python}},
+  journal   = {Journal of Machine Learning Research},
+  volume    = {12},
+  pages     = {2825--2830},
+  year      = {2011}
+}
+
+@inproceedings{davis2006relationship,
+  author    = {Davis, Jesse and Goadrich, Mark},
+  title     = {The Relationship Between Precision-Recall and {ROC} Curves},
+  booktitle = {Proceedings of the 23rd International Conference on Machine Learning},
+  pages     = {233--240},
+  year      = {2006},
+  publisher = {ACM},
+  address   = {Pittsburgh, PA, USA}
+}
+
+%% ============================================================
+%% 8. ADDITIONAL GNN FOUNDATIONS
+%% ============================================================
+
+@inproceedings{kipf2017semi,
+  author    = {Kipf, Thomas N. and Welling, Max},
+  title     = {Semi-Supervised Classification with Graph Convolutional Networks},
+  booktitle = {Proceedings of the 5th International Conference on Learning Representations},
+  year      = {2017},
+  address   = {Toulon, France}
+}
+
+@inproceedings{velickovic2018graph,
+  author    = {Veli{\v{c}}kovi{\'c}, Petar and Cucurull, Guillem and Casanova, Arantxa and Romero, Adriana and Li{\`o}, Pietro and Bengio, Yoshua},
+  title     = {Graph Attention Networks},
+  booktitle = {Proceedings of the 6th International Conference on Learning Representations},
+  year      = {2018},
+  address   = {Vancouver, BC, Canada}
+}
+
+@inproceedings{xu2019how,
+  author    = {Xu, Keyulu and Hu, Weihua and Leskovec, Jure and Jegelka, Stefanie},
+  title     = {How Powerful Are Graph Neural Networks?},
+  booktitle = {Proceedings of the 7th International Conference on Learning Representations},
+  year      = {2019},
+  address   = {New Orleans, LA, USA}
+}
+
+@inproceedings{wang2019heterogeneous,
+  author    = {Wang, Xiao and Ji, Houye and Shi, Chuan and Wang, Bai and Ye, Yanfang and Cui, Peng and Yu, Philip S.},
+  title     = {Heterogeneous Graph Attention Network},
+  booktitle = {The World Wide Web Conference},
+  pages     = {2022--2032},
+  year      = {2019},
+  publisher = {ACM},
+  address   = {San Francisco, CA, USA}
+}
+
+@inproceedings{shi2020rhine,
+  author    = {Shi, Chuan and Ji, Houye and Wang, Xiao and Ye, Yanfang and Zhou, Chuan},
+  title     = {Relation Structure-Aware Heterogeneous Graph Neural Network},
+  booktitle = {Proceedings of the 2019 IEEE International Conference on Data Mining},
+  pages     = {1534--1539},
+  year      = {2019},
+  publisher = {IEEE}
+}
+
+%% ============================================================
+%% 9. MONEY LAUNDERING TYPOLOGIES AND FINANCIAL CRIME
+%% ============================================================
+
+@article{unger2014money,
+  author    = {Unger, Brigitte and Ferwerda, Joras},
+  title     = {Money Laundering in the Real Estate Sector: Suspicious Properties},
+  journal   = {Edward Elgar Publishing},
+  year      = {2011}
+}
+
+@article{ferwerda2013anti,
+  author    = {Ferwerda, Joras},
+  title     = {The Economics of Crime and Money Laundering: Does Anti-Money Laundering Policy Reduce Crime?},
+  journal   = {Review of Law and Economics},
+  volume    = {5},
+  number    = {2},
+  pages     = {903--929},
+  year      = {2009},
+  publisher = {De Gruyter}
+}
+
+@techreport{fatf2012recommendations,
+  author      = {{Financial Action Task Force}},
+  title       = {{FATF} Recommendations: International Standards on Combating Money Laundering and the Financing of Terrorism and Proliferation},
+  institution = {FATF/OECD},
+  address     = {Paris, France},
+  year        = {2012}
+}
+
+%% ============================================================
+%% 10. GRAPH NEURAL NETWORKS: OVERSAMPLING AND LABEL SCARCITY
+%% ============================================================
+
+@inproceedings{qu2021imgagn,
+  author    = {Qu, Liang and Zhu, Huaisheng and Zheng, Ruiqi and Shi, Yuhui and Yin, Hongzhi},
+  title     = {{IMGAGN}: Imbalanced Network Embedding via Generative Adversarial Graph Networks},
+  booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages     = {1390--1398},
+  year      = {2021}
+}
+
+@inproceedings{park2021graphens,
+  author    = {Park, Joonhyung and Song, Jaeyun and Yang, Eunho},
+  title     = {{GraphENS}: Neighbor-Aware Ego Network Synthesis for Class-Imbalanced Node Classification},
+  booktitle = {Proceedings of the 10th International Conference on Learning Representations},
+  year      = {2022}
+}
+
+@inproceedings{chen2021topology,
+  author    = {Chen, Zheng and Tan, Lingwei},
+  title     = {Topology-Imbalance Learning for Semi-Supervised Node Classification},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {34},
+  pages     = {29885--29897},
+  year      = {2021},
+  publisher = {Curran Associates}
+}
+
+@inproceedings{zhao2021my,
+  author    = {Zhao, Tong and Liu, Gang and Jiang, Meng and Shah, Neil},
+  title     = {Uncovering the Connection Between Differential Privacy and Certified Robustness of Federated Learning against Poisoning Attacks},
+  journal   = {arXiv preprint arXiv:2106.09784},
+  year      = {2021}
+}
+
+%% ============================================================
+%% 11. CONSTRAINED OPTIMIZATION / FEASIBILITY PROJECTION
+%% ============================================================
+
+@book{boyd2004convex,
+  author    = {Boyd, Stephen and Vandenberghe, Lieven},
+  title     = {Convex Optimization},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge, UK},
+  year      = {2004}
+}
+
+@inproceedings{mahajan2019preserving,
+  author    = {Mahajan, Divyat and Tan, Chenhao and Sharma, Amit},
+  title     = {Preserving Causal Constraints in Counterfactual Explanations for Machine Learning Classifiers},
+  booktitle = {Proceedings of the NeurIPS Workshop on Do the Right Thing: Machine Learning and Causal Inference for Improved Decision Making},
+  year      = {2019}
+}
+
+@inproceedings{poyiadzi2020face,
+  author    = {Poyiadzi, Rafael and Sokol, Kacper and Santos-Rodriguez, Raul and De Bie, Tijl and Flach, Peter},
+  title     = {{FACE}: Feasible and Actionable Counterfactual Explanations},
+  booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
+  pages     = {344--350},
+  year      = {2020},
+  publisher = {ACM},
+  address   = {New York, NY, USA}
+}
+
+%% ============================================================
+%% 12. TRANSFER LEARNING / FEW-SHOT ON GRAPHS
+%% ============================================================
+
+@inproceedings{hu2020gpt,
+  author    = {Hu, Weihua and Liu, Bowen and Gomes, Joseph and Zitnik, Marinka and Liang, Percy and Pande, Vijay and Leskovec, Jure},
+  title     = {Strategies for Pre-Training Graph Neural Networks},
+  booktitle = {Proceedings of the 8th International Conference on Learning Representations},
+  year      = {2020}
+}
+
+@inproceedings{yao2019graph,
+  author    = {Yao, Huaxiu and Zhang, Chuxu and Wei, Ying and Jiang, Meng and Wang, Suhang and Hu, Jian and Chawla, Nitesh V. and Li, Zhenhui},
+  title     = {Graph Few-Shot Learning via Knowledge Transfer},
+  booktitle = {Proceedings of the 34th AAAI Conference on Artificial Intelligence},
+  pages     = {6656--6663},
+  year      = {2020},
+  publisher = {AAAI Press}
+}
+
+%% ============================================================
+%% 13. BENCHMARK AND EVALUATION
+%% ============================================================
+
+@inproceedings{hu2020open,
+  author    = {Hu, Weihua and Fey, Matthias and Zitnik, Marinka and Dong, Yuxiao and Ren, Hongyu and Liu, Bowen and Catasta, Michele and Leskovec, Jure},
+  title     = {Open Graph Benchmark: Datasets for Machine Learning on Graphs},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {33},
+  pages     = {22118--22133},
+  year      = {2020},
+  publisher = {Curran Associates}
+}
+
+@inproceedings{dablain2022deepsmote,
+  author    = {Dablain, Damien and Krawczyk, Bartosz and Chawla, Nitesh V.},
+  title     = {{DeepSMOTE}: Fusing Deep Learning and {SMOTE} for Imbalanced Data},
+  journal   = {IEEE Transactions on Neural Networks and Learning Systems},
+  volume    = {34},
+  number    = {9},
+  pages     = {6390--6404},
+  year      = {2023},
+  publisher = {IEEE}
+}
